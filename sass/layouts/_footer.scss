@@ -1,0 +1,127 @@
+.footer {
+  padding-right: 15px;
+  padding-left: 15px;
+  background: #2f303a;
+}
+
+.block__list{
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 94px;
+  display: flex;
+  justify-content: space-between;  
+}
+
+.clients__link{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90px;
+    width: 170px;
+  height: 90px;
+  border: 1px solid $color5;
+  border-radius: 4px;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.clients__icon{
+  width: 44px;
+  height: 49px;
+  fill: $color5;
+}
+
+.clients__link:hover, 
+.clients__link:focus {
+  --color5: #2196F3;
+  border: 1px solid #2196F3;
+  border-radius: 4px;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.container-footer {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  
+}
+
+.container-block__list-item .link:hover,
+.container-block__list-item .link:focus {
+  color: $accent-color;
+}
+
+.footer__logo:hover,
+.footer__logo:focus {
+  color: $accent-color;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer__logo {
+  padding-bottom: 20px;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-list{
+  display: flex;
+  margin-right: -34px;
+  margin-left: -34px;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.footer-list__item{
+  padding-top: 60px;
+  padding-right: 34px;
+  padding-bottom: 60px;
+  padding-left: 34px;
+}
+.footer-list__text {
+  font-style: normal;
+  color: $color1;
+  font-size: 14px;
+  line-height: 1.71;
+  text-decoration: none;
+}
+
+.footer__socials {
+  text-decoration: none;
+  display: flex;
+  margin-top: 20px;
+  margin-left: -5px;
+  margin-right: -5px;
+  justify-content: center;  
+}
+
+.footer-form__text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  margin-bottom: 20px;
+  padding-right: 10px;
+  text-transform: uppercase;
+  color: $color1;
+}
+.button__link{
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  padding: 10px 10px;
+}
+.button__link-text{
+  font-weight: 700;
+  font-size: 16px;
+  align-items: center;
+  text-align: center;
+  margin: 0;
+  color: $color1;
+  letter-spacing: 0.06em;
+  line-height: 1.87;
+  padding-right: 10px;
+}
+.button__link-img{
+  width: 24px;
+  height: 24px;
+  fill: $color1;
+}
