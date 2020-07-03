@@ -2,18 +2,18 @@
 @import "./utils/base";
 
 @import "./components/menu";
-@import "./components/contacts";
 @import "./components/button";
+@import "./components/social";
+@import "./components/contacts";
+@import "./components/mail";
 @import "./components/modal";
 @import "./components/form";
-@import "./components/thumb";
 
 @import "./layouts/header";
 @import "./layouts/container";
 @import "./layouts/section";
 @import "./layouts/block";
-@import "./layouts/element";
-@import "./layouts/social";
+@import "./layouts/gallery";
 @import "./layouts/footer";
-@import "./layouts/mail";
+@import "./layouts/thumb";
 
