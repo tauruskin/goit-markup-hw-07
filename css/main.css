@@ -328,14 +328,7 @@ button:focus {
   height: 44px;
   -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.socials__icon {
   fill: #AFB1B8;
-}
-
-.socials__icon:hover {
-  fill: #ffffff;
 }
 
 .socials__item {
@@ -349,6 +342,7 @@ button:focus {
   background-color: #2196F3;
   -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  fill: #ffffff;
 }
 
 .contacts-nav {
@@ -864,16 +858,17 @@ button:focus {
   border-radius: 4px;
   -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  fill: #AFB1B8;
 }
 
 .clients__icon {
   width: 44px;
   height: 49px;
-  fill: #AFB1B8;
 }
 
 .clients__link:hover,
 .clients__link:focus {
+  fill: #2196f3;
   border: 1px solid #2196F3;
   border-radius: 4px;
   -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);

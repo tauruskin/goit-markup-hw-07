@@ -14,13 +14,8 @@
   width: 44px;
   height: 44px;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  
-}
-.socials__icon {
   fill: $color5;
-  &:hover {
-  fill: $color1;
-  }
+  
 }
 
 .socials__item{
@@ -33,4 +28,7 @@
   border-radius: 30px;
   background-color: #2196F3;  
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  fill: $color1;
+  
+ 
 }

@@ -130,16 +130,17 @@
   border: 1px solid #AFB1B8;
   border-radius: 4px;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  fill: $color5;
 }
 .clients__icon{
   width: 44px;
   height: 49px;
-  fill: $color5;
+  
 }
 
 .clients__link:hover, 
 .clients__link:focus {
-  $color5: #2196F3;
+  fill: $color3;
   border: 1px solid #2196F3;
   border-radius: 4px;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
