@@ -365,13 +365,13 @@ button:focus {
   text-decoration: none;
   -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  fill: #AFB1B8;
 }
 
 .contacts-nav__icon {
   width: 15px;
   height: 15px;
   padding-right: 10px;
-  fill: #AFB1B8;
 }
 
 .contacts-nav__item {
@@ -386,6 +386,7 @@ button:focus {
 .contacts-nav__link:hover,
 .contacts-nav__link:focus {
   color: #2196f3;
+  fill: #2196f3;
   -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
