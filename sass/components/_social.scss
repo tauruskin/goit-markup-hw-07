@@ -18,6 +18,9 @@
 }
 .socials__icon {
   fill: $color5;
+  &:hover {
+  fill: $color1;
+  }
 }
 
 .socials__item{
